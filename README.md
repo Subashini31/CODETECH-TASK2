@@ -1,11 +1,13 @@
-# 🧠 Convolutional Neural Network (CNN) for Image Classification  
+# 🧠 Plant Disease Classification using CNN
+ 
+This project focuses on classifying plant diseases using a **Convolutional Neural Network (CNN)** built with **Keras and TensorFlow**. The model is trained on a dataset of plant images and predicts the disease category based on image inputs.   🚀  
+ 
+ ---
 
-A deep learning model built with **TensorFlow & Keras** for multi-class image classification.  
-This CNN extracts features from images using **convolutional layers, max pooling, batch normalization, and dropout** to improve accuracy and prevent overfitting.  
-Perfect for beginners and researchers looking to implement deep learning for image classification! 🚀  
-
----
-
+ ## Dataset  
+- The dataset contains images of **38 different plant disease categories**.  
+- Images are stored in appropriate folders for training and validation.  
+ 
 ## **🛠 Features**  
 
 ✔ **Convolutional Layers** – Extract spatial features from images  
@@ -43,6 +45,16 @@ The CNN consists of **four convolutional blocks**, followed by **Global Average 
 | Dense (38 classes)     | (38)             | 9,766      |
 
 ---
+
+## Performance  
+- The model achieves good accuracy in classifying plant diseases.  
+- The results can be further improved using data augmentation and fine-tuning.  
+- Train Accuracy  : 98.47 %
+- Test Accuracy   : 97.72 %
+- Precision Score : 97.72 %
+- Recall Score    : 97.72 %  
+
+
 
 
 
